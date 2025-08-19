@@ -90,7 +90,7 @@ export function AboutSection() {
                 >
                   SMALLCHESS
                 </a>
-                . Open to work if you're building something cool.
+                . Open to work if you&apos;re building something cool.
               </p>
             </div>
           </motion.div>
@@ -108,8 +108,8 @@ export function AboutSection() {
 
             <div>
               <p className="body-text text-foreground-secondary">
-                When I'm not designing or vibe-coding, I enjoy playing
-                basketball, DJ'ing, and creating fun side projects.
+                When I&apos;m not designing or vibe-coding, I enjoy playing
+                basketball, DJ&apos;ing, and creating fun side projects.
               </p>
             </div>
           </motion.div>

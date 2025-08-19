@@ -4,8 +4,6 @@ import { motion, Variants } from "framer-motion";
 import { useMobile } from "@/hooks/use-mobile";
 
 export function HeroSection() {
-  const isMobile = useMobile();
-
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -46,8 +44,8 @@ export function HeroSection() {
 
           <motion.div variants={itemVariants} className="max-w-2xl">
             <p className="hero-subtitle text-foreground-secondary">
-              I'm a software engineer with a passion for building products that
-              are both functional and aesthetically pleasing.
+              I&apos;m a software engineer with a passion for building products
+              that are both functional and aesthetically pleasing.
             </p>
           </motion.div>
         </motion.div>
