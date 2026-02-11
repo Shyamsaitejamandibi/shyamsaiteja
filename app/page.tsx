@@ -5,6 +5,7 @@ import { HeroSection } from "@/components/hero-section";
 import { WorkSection } from "@/components/work-section";
 import { AboutSection } from "@/components/about-section";
 import { ContactSection } from "@/components/contact-section";
+import { DeveloperActivitySection } from "@/components/developer-activity-section";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { CustomCursor } from "@/components/custom-cursor";
@@ -40,6 +41,12 @@ export default function Home() {
         <section id="about">
           <SectionTransition id="about">
             <AboutSection />
+          </SectionTransition>
+        </section>
+
+        <section id="developer-activity">
+          <SectionTransition id="developer-activity">
+            <DeveloperActivitySection />
           </SectionTransition>
         </section>
 

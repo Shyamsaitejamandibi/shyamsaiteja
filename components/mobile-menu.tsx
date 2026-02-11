@@ -33,6 +33,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const navItems = [
     { name: "Work", href: "#work", id: "work" },
     { name: "About", href: "#about", id: "about" },
+    { name: "GitHub", href: "#github", id: "github" },
     { name: "Across the Web", href: "#across-the-web", id: "across-the-web" },
   ];
 
@@ -118,6 +119,6 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         </div>
       )}
     </AnimatePresence>,
-    document.body
+    document.body,
   );
 }
