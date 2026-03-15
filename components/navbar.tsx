@@ -14,7 +14,7 @@ export function Navbar() {
   const navItems = [
     { name: "Work", href: "#work", id: "work" },
     { name: "About", href: "#about", id: "about" },
-    { name: "GitHub", href: "#github", id: "github" },
+    { name: "Activity", href: "#developer-activity", id: "developer-activity" },
     { name: "Across the Web", href: "#across-the-web", id: "across-the-web" },
   ];
 

@@ -28,7 +28,13 @@ export function SmoothScrollProvider({ children }: { children: ReactNode }) {
   const [currentSection, setCurrentSection] = useState("hero");
 
   useEffect(() => {
-    const sections = ["hero", "work", "about", "across-the-web"];
+    const sections = [
+      "hero",
+      "work",
+      "about",
+      "developer-activity",
+      "across-the-web",
+    ];
 
     // Create IntersectionObserver
     const observer = new IntersectionObserver(
@@ -45,7 +51,7 @@ export function SmoothScrollProvider({ children }: { children: ReactNode }) {
       {
         rootMargin: "-40% 0px -40% 0px", // Adjust the margins to control when sections become active
         threshold: 0.1,
-      }
+      },
     );
 
     // Observe all sections
